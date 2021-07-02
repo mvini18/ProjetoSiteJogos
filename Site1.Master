@@ -22,7 +22,7 @@
         <div id="topMenu">
 
             <asp:HyperLink CssClass="linkMenu" ID="sobre" runat="server" NavigateUrl="~/WebForm1.aspx">Sobre</asp:HyperLink>
-            <asp:HyperLink CssClass="linkMenu" ID="atualizar" runat="server" NavigateUrl="~/WebForm2.aspx?&amp;id=&quot;+id" OnDataBinding="Page_Load">Atualizar jogo</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="atualizar" runat="server" NavigateUrl="~/WebForm2.aspx" OnDataBinding="Page_Load">Atualizar jogo</asp:HyperLink>
             <asp:HyperLink CssClass="linkMenu" ID="remover" runat="server" NavigateUrl="~/WebForm3.aspx">Remover jogo</asp:HyperLink>
             <asp:HyperLink CssClass="linkMenu" ID="cadastro" runat="server" NavigateUrl="~/WebForm4.aspx">Cadastro de Jogos</asp:HyperLink>
             <asp:HyperLink CssClass="linkMenu" ID="pesquisa" runat="server" NavigateUrl="~/WebForm5.aspx">Pesquisar jogo</asp:HyperLink>

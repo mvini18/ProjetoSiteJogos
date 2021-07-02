@@ -55,7 +55,7 @@ namespace MasterPage_PI
 
         protected void btnVoltar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm6.aspx");
+            Response.Redirect("index.aspx");
         }
     }
 }

@@ -16,7 +16,8 @@
                 <br />
                 <br />
                 <br />
-                <asp:Label ID="buscar" runat="server" Text="Nome do jogo: " Font-Names="Century Gothic" ForeColor="White" Font-Bold="True"></asp:Label>
+                <asp:Label ID="buscar" runat="server" Text="Título do jogo: " Font-Names="Century Gothic" ForeColor="White" Font-Bold="True"></asp:Label>
+                <br />
                 <br />
                 <asp:TextBox ID="buscarTxt" CssClass="campos" runat="server" Width="200px" Font-Names="Century Gothic" CausesValidation="True" ></asp:TextBox>
                 <br />

@@ -15,7 +15,8 @@
                 <br />
                 <br />
                 <br />
-                <asp:Label ID="deletar" runat="server" Text="Nome:" Font-Names="Century Gothic" ForeColor="White" Font-Bold="True"></asp:Label>
+                <asp:Label ID="deletar" runat="server" Text="Título do jogo:" Font-Names="Century Gothic" ForeColor="White" Font-Bold="True"></asp:Label>
+                <br />
                 <br />
                 <asp:TextBox ID="deletarTxt" CssClass="campos" runat="server" Width="200px" Font-Names="Century Gothic" CausesValidation="True" ></asp:TextBox>
                 <br />
