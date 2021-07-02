@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MasterPage_PI.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GamePedia</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="logo" style="background-color: #000066">
+
+            <asp:ImageButton ID="logoImg" runat="server" Height="60px" ImageUrl="~/Imagens/joystick.png" Width="60px" />
+            <asp:Label ID="Label1" runat="server" Font-Names="Comic Sans MS" Font-Size="25pt" ForeColor="#99CCFF" Text="GamePedia"></asp:Label>
+
+        </div>
+        <div id="topMenu">
+
+            <asp:HyperLink CssClass="linkMenu" ID="sobre" runat="server" NavigateUrl="~/WebForm1.aspx">Sobre</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="atualizar" runat="server" NavigateUrl="~/WebForm2.aspx?&amp;id=&quot;+id" OnDataBinding="Page_Load">Atualizar jogo</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="remover" runat="server" NavigateUrl="~/WebForm3.aspx">Remover jogo</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="cadastro" runat="server" NavigateUrl="~/WebForm4.aspx">Cadastro de Jogos</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="pesquisa" runat="server" NavigateUrl="~/WebForm5.aspx">Pesquisar jogo</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="sugerir" runat="server" NavigateUrl="~/WebForm10.aspx">Sugestões</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="usuarios" runat="server" NavigateUrl="~/WebForm9.aspx" Visible="False">Usuarios</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="sugestao" runat="server" NavigateUrl="~/WebForm11.aspx" Visible="False">Solicitações</asp:HyperLink>
+            <asp:HyperLink CssClass="linkMenu" ID="sair" runat="server" NavigateUrl="~/WebForm8.aspx">Sair</asp:HyperLink>
+
+        </div>
+        <div id="conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="rodape">
+            <p>GamePedia 2021</p>
+        </div>
+    </form>
+</body>
+</html>

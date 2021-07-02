@@ -1,0 +1,72 @@
+﻿body {
+    background-color: #182640;
+}
+
+#topMenu {
+    background-color: white;
+    font: 11pt comic sans ms;
+    text-align: center;
+}
+
+.linkMenu {
+    margin-left: 20px;
+}
+
+#rodape {
+    text-align: center;
+    background-color: white;
+    font: 11pt comic sans ms;
+}
+
+.inicio {
+    text-align: center;
+}
+
+h1 {
+    font: 26pt comic sans ms;
+    color: white;
+}
+
+#textoIni {
+    font: 15pt comic sans ms;
+    color: white;
+}
+
+.lanc {
+    color: white;
+    font: 15pt comic sans ms;
+}
+
+#pagTitulo {
+    background: #121330;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+
+#cadJogos {
+    background: #16222e;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#descricaoTxt {
+    height: 50px;
+    width: 200px;
+}
+
+.button {
+    border-radius: 10px;
+}
+
+    .button:hover {
+        background-color: #16222e;
+        color: white;
+        cursor: pointer;
+    }
+
+.campos {
+    border-radius: 10px;
+}
