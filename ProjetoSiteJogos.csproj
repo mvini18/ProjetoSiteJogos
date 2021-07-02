@@ -74,6 +74,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArquivoBanco\banco_jogos.sql" />
     <Content Include="Imagens\bloons.jpg" />
     <Content Include="Imagens\chronos-before-the-ashes.jpg" />
     <Content Include="Imagens\comentarista-de-jogos.png" />
